@@ -1,0 +1,19 @@
+.formulario{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border: solid 2px;
+    border-color: white;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/1c/35/5a/1c355a72ace613f0134ac9d551397272.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
