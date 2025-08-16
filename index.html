@@ -8,11 +8,25 @@
 </head>
 <body>
     <form class="formulario" method="get" action="index.php">
-        <h1>Login de Usuário</h1>
-        <input type="text" id="nome" name="nome" value="Nome:">
-        <input type="text" id="email" name="email" value="Email:">
-        <input type="text" id="telefone" name="telefone" value="Telefone:">
-        <input type="submit" value="enviar">
+        <div class="login-header">
+            <h1>login</h1>
+        </div>
+        <div class="input_box">
+            <input class="input_field" type="text" id="nome" name="nome" >
+            <label  for="user" class="label">Nome:</label>
+            <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input_box">
+            <input class="input_field" type="text" id="email" name="email">
+            <label for="user" class="label">Email:</label>
+            <i class="bx bx-user icon"></i>
+        </div>
+        <div class="input_box">
+            <input class="input_field" type="text" id="telefone" name="telefone" >
+            <label for="user" class="label">Telefone:</label>
+            <i class="bx bx-user icon"></i>
+        </div>
+                <input type="submit" value="enviar">
     </form>
 </body>
 </html>
