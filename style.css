@@ -94,6 +94,7 @@ body{
 }
 
 .input_box{
+    width: 90%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -116,3 +117,10 @@ body{
     margin-bottom: 10px;
 }
 
+.botao{
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    font-weight: 500;
+}
